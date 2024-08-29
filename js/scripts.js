@@ -1,5 +1,8 @@
-function mostrarMensaje(){
-    console.log('Bienvenido a la pagina de Matemáticas');
-}
-
-window.onload = mosrarMensaje;
+document.addEventListener('DOMContentLoaded', function() {
+    const funImage = document.getElementById('funImage');
+    
+    funImage.addEventListener('click', function() {
+        funImage.classList.add('jump');
+        setTimeout(() => funImage.classList.remove('jump'), 500);
+    });
+});
