@@ -7,16 +7,15 @@ body {
 }
 
 header {
-    background-color: #ee943f;
+    background-color: #fac827;
     padding: 30px;
     text-align: center;
-    border-bottom: 5px solid #e7371f;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin: 0;
-    color: #333;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -101,11 +100,15 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    color: #e7371f;
+.titulo {
+    color: #cc0700;
     font-weight: 600;
     text-align: center;
     font-size: 50px;
+}
+
+hr {
+    border: 1px solid #000;
 }
 
 section p {
@@ -119,7 +122,7 @@ footer {
     text-align: center;
     padding: 10px;
     position: relative;
-    width: 100%;
+    width: 98%;
     bottom: 0;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -142,4 +145,67 @@ footer p {
 
 .jump {
     transform: translateY(-20px);
+}
+
+/*==================================================|FUNCION|==================================================*/
+
+.subtitulo {
+    color: #cc0700;
+    font-size: 40px;
+    font-weight: 1500;
+    margin-left: 100px;
+}
+
+.conjuntos {
+    margin-left: 50px;
+}
+
+.definicion img {
+    margin-left: 30%;
+    width: 50%;
+}
+
+.definiciones ul {
+    list-style: none;
+}
+
+.definiciones ul li p {
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+/*==================================================|EJEMPLO 1|==================================================*/
+
+.funcion {
+    margin-left: 10%;
+}
+
+.Observación {
+    text-align: center;
+}
+
+.img-ejemplo {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.ejemplo ul {
+    list-style: none;
+}
+
+.ejemplo ul li h2 {
+    margin-left: 20px;
+}
+
+.ejemplo ul li h4 {
+    margin-left: 40px;
+}
+
+.ejemplo ul li p {
+    margin-left: 60px;
+    margin-top: -20px;
+}
+
+.ejemplo ul li img {
+    margin-left: 80px;
 }
