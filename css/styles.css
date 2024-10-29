@@ -1,0 +1,165 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+header {
+    top: 0;
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 5px solid #8a8a8a;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+}
+
+.barraMenu {
+    background-color: #1b1b1b;
+    border-right: 5px solid #8a8a8a;
+    position: fixed;
+    left: 0;
+    margin-top: 2.6%;
+    width: 20%;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.opcionesMenu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.opcionesMenu a {
+    background-color: #4d4d4d;
+    border: 2px solid #161616;
+    margin-left: -30px;
+    padding: 20px;
+    width: 90%;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.opcionesMenu a:hover {
+    background-color: #161616;
+    border: 2px solid #fff;
+}
+
+.opcionesMenu li {
+    text-align: center;
+}
+
+.barraMenu img {
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 10%
+}
+
+.menuTemas {
+    display: block;
+    background-color: #1b1b1b;
+    border-right: 5px solid #8a8a8a;
+    margin: 0;
+    margin-top: 7.8%;
+    width: 15%;
+    height: 100vh;
+    top: 0;
+    margin-left: 0;
+    position: fixed;
+    padding: 10px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.menuTemas.active {
+    margin-left: 18%;
+}
+
+.menuTemas ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menuTemas ul a {
+    text-decoration: none;
+    color: #eeeeee;
+    background-color: #4d4d4d;
+    border: 2px solid #161616;
+    border-radius: 20px;
+    margin-left: -45px;
+    width: 100%;
+    padding: 20px;
+}
+
+.menuTemas ul a:hover {
+    background-color: #200808;
+    border: 2px solid #fff;
+}
+
+
+/*=======================================|BARRA DE NAVEGACIÓN|=======================================*/
+
+.contenedorInicio {
+    width: 80%;
+    padding: 10%;
+}
+
+.inicio {
+    margin: 0 15%;
+    padding: 10px;
+    width: 94%;
+    height: auto;
+    justify-items: center;
+    background-color: #fff;
+}
+
+.inicio h2 {
+    font-size: 40px;
+    color: #b31f1f;
+}
+
+.inicio hr {
+    border: 1px solid #000000;
+}
+
+.inicio p {
+    width: 90%;
+}
+
+/*==========================================|SOBRE MI|==========================================*/
+
+.sobreMi{
+    margin: 0;
+    width: 90%;
+    text-align: center;
+    justify-items: center;
+}
+
+/*==========================================|FOOTER|==========================================*/
+
+footer {
+    background-color: #000000;
+    padding: 10px;
+    justify-items: center;
+    color: #fff;
+    bottom: 0;
+}
+
+footer p {
+    margin-left: 300px;
+}

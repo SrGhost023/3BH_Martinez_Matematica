@@ -1,50 +1,78 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="icon/png" href="../img/Logo.png">
-    <title>Autor | Capimáticas</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../img/Logo.png" type="icon/png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Sobre mi - Matematicas</title>
 </head>
+
 <body>
     <header>
-        <h1>Capimáticas: Aventuras Numéricas con la Capibara</h1>
+        <h1>Matematicas</h1>
+        <section class="menuTemas" id="menuTemas">
+            <ul>
+                <a href="#">
+                    <li>Funciones</li>
+                </a>
+                <a href="#">
+                    <li>Limites</li>
+                </a>
+                <a href="#">
+                    <li>Continuidad</li>
+                </a>
+            </ul>
+        </section>
+        <nav class="barraMenu">
+            <ul class="opcionesMenu">
+                <a href="../index.html">
+                    <li>Inicio</li>
+                </a>
+                <a href="#" id="temas">
+                    <li>Temas</li>
+                </a>
+                <a href="#">
+                    <li>Autor</li>
+                </a>
+            </ul>
+            <img src="../img/Logo.png" alt="Logo de la aplicación">
+        </nav>
     </header>
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html#inicio">Inicio</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Temas</a>
-                <div class="dropdown-content">
-                    <a href="funcion.html">Función</a>
-                    <a href="limites.html">Límites</a>
-                    <a href="continuidad.html">Continuidad</a>
-                </div>
-            </li>
-            <li><a href="autor.html">Autor</a></li>
-        </ul>
-    </nav>
+    <main class="contenedorInicio">
+        <section class="inicio">
+            <h2>Sobre mí</h2>
+            <hr>
+            <section class="sobreMi">
+                <p>¡Hola!</p>
+                <p>Mi nombre es Enzo Martinez, soy un estudiante de la Escuela Superior de Informatica el cual está
+                    cursando actualmente su 3er año</p>
+                <p>Mis hobbies son dibujar, hacer animaciones, escuchar musica, jugar videojuegos y un poco el programar
+                </p>
+                <p>Me gusta mucho diseñar páginas web, el darles detalles a cada una. Diseñe esta página web a petición
+                    de mi profesor de matemáticas para otorgarle a sus futuros alumnos
+                    una herramienta con la que puedan practicar distintas ramas de la matemáticas que pueden llegar a
+                    ser algo complejas para algunas personas.
+                </p>
+                <p>Si tienes alguna duda o sugerencia, no dudes en ponerte en contacto conmigo. Esto dispuesto a ayudar
+                    a mejorar el contenido del sitio web
+                    para que asi sea aún más útil para ti.</p>
 
-    <main>
-        <section>
-            <h2>Sobre el Autor</h2>
-            <p>Hola, soy Enzo Martinez, el creador de esta página. Mi pasión por las matemáticas me ha llevado a desarrollar este sitio con el objetivo de ayudar a otros a entender conceptos clave en esta fascinante disciplina.</p>
-            <p>Soy estudiante Bachillerato en la Escuela Superior de Informatica. He diseñado este sitio para ofrecer recursos accesibles y útiles para estudiantes y entusiastas de las matemáticas de todos los niveles.</p>
-            <p>Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo. Estoy siempre dispuesto a ayudar y a mejorar el contenido del sitio para que sea aún más útil para ti.</p>
-            <p>¡Gracias por visitar Matemáticas y Más! Espero que encuentres la información que necesitas y disfrutes aprendiendo sobre matemáticas.</p>
+                <p>¡Gracias por visitar Matemáticas y por tu atención al leer éste apartado! Disfruta y mucha suerte en el curso</p>
+
+                <h4>Contacto:</h4>
+                <p>enzogame123456@gmail.com</p>
+            </section>
         </section>
-
-        <div class="fun-image">
-            <img src="../img/Logo.png" alt="Imagen divertida" id="funImage">
-        </div>
     </main>
 
     <footer>
-        <p>&copy; 2024 Capimáticas. Todos los derechos reservados.</p>
+        <p>@2024 Enzo Martinez - 3°BH ESI Buceo</p>
     </footer>
-
-    <script src="../js/scripts.js"></script>
 </body>
+<script src="../js/scriptVarMenu.js"></script>
+
 </html>
