@@ -1,46 +1,59 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="icon/png" href="../img/Logo.png">
-    <title>Continuidad | Capimáticas</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../img/Logo.png" type="icon/png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Continuidad - Matematicas</title>
 </head>
+
 <body>
     <header>
-        <h1>Capimáticas: Aventuras Numéricas con la Capibara</h1>
+        <h1>Matematicas</h1>
+        <section class="menuTemas" id="menuTemas">
+            <ul>
+                <a href="funcion.html">
+                    <li>Funciones</li>
+                </a>
+                <a href="limites.html">
+                    <li>Limites</li>
+                </a>
+                <a href="continuidad.html">
+                    <li>Continuidad</li>
+                </a>
+            </ul>
+        </section>
+        <nav class="barraMenu">
+            <ul class="opcionesMenu">
+                <a href="../index.html">
+                    <li>Inicio</li>
+                </a>
+                <a href="#" id="temas">
+                    <li>Temas</li>
+                </a>
+                <a href="autor.html">
+                    <li>Autor</li>
+                </a>
+            </ul>
+            <img src="../img/Logo.png" alt="Logo de la aplicación">
+        </nav>
     </header>
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html#inicio">Inicio</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Temas</a>
-                <div class="dropdown-content">
-                    <a href="funcion.html">Función</a>
-                    <a href="limites.html">Límites</a>
-                    <a href="continuidad.html">Continuidad</a></div>
-            </li>
-            <li><a href="autor.html">Autor</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section>
+    <main class="contenedorInicio">
+        <section class="inicio">
             <h2>Continuidad</h2>
-            <p>Descubre qué es la continuidad en matemáticas y cómo se aplica.</p>
+            <hr>
+            <p>Aqui encontrarás informaciónacerca de continuidad</p>
         </section>
-
-        <div class="fun-image">
-            <img src="../img/Logo.png" alt="Imagen divertida" id="funImage">
-        </div>
     </main>
 
     <footer>
-        <p>&copy; 2024 Capimáticas. Todos los derechos reservados.</p>
+        <p>@2024 Enzo Martinez - 3°BH ESI Buceo</p>
     </footer>
-
-    <script src="../js/scripts.js"></script>
 </body>
+<script src="../js/scriptVarMenu.js"></script>
+
 </html>
